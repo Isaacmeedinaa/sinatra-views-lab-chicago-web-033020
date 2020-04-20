@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinatra Views Lab II</title>
+    </head>
+    <body>
+        <% day_name = Time.now.strftime("%A") %>
+        <% day = Time.now.day %>
+        <% month = Time.now.strftime("%B") %>
+        <% year = Time.now.year %>
+        <h1>The date is <%= day_name %>, <%= month %> <%= day %>, <%= year %></h1>
+    </body>
+</html>
